@@ -1,29 +1,57 @@
-:root {
-    --cor-principal: #6E859F;
-    --cor-secundaria: #284260;
-    --cor-destaque: #C92BFC;
-}
-
+/* Definir o fundo do site para preto */
 body {
-    font-family: 'Chakra Petch', sans-serif;
-    color: var(--cor-principal);
+    background-color: black;
+    color: white; /* Texto branco para contraste */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-h1, h2, h5 {
-    color: var(--cor-secundaria);
-    font-weight: 700;
+/* Definir cor de links e hover em azul */
+a {
+    color: #1E90FF; /* Azul claro */
+    text-decoration: none;
 }
 
-.lead, .btn-link {
-    color: var(--cor-destaque);
-    font-weight: 700;
+a:hover {
+    color: #00BFFF; /* Azul mais claro no hover */
 }
 
-a, .btn-link:hover {
-    color: var(--cor-principal)
+/* Estilizar cabeçalhos com detalhes em azul */
+h1, h2, h3, h4, h5, h6 {
+    color: #1E90FF; /* Azul para os cabeçalhos */
 }
 
-a:hover{
-    color: var(--cor-destaque);
+/* Adicionar bordas azuis em elementos de destaque */
+div, section, article {
+    border: 2px solid #1E90FF;
+    padding: 10px;
+    margin: 10px;
 }
 
+/* Estilo de botões */
+button {
+    background-color: #1E90FF; /* Azul */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #00BFFF; /* Azul mais claro no hover */
+}
+
+/* Formulários */
+input, textarea {
+    background-color: #333333; /* Fundo mais escuro */
+    color: white;
+    border: 1px solid #1E90FF;
+    padding: 10px;
+    font-size: 14px;
+}
+
+input:focus, textarea:focus {
+    border-color: #00BFFF; /* Mudando a borda para azul claro quando focado */
+}
