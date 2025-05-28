@@ -1,60 +1,79 @@
 /* Autor: Victor Alan 3C 28.05.2025 */
 body {
-    background-color: white;
-    color: black;
-    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Segoe UI', Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 20px;
 }
 
+/* Cabeçalho estilizado */
 header {
     background-color: #1b5c0c;
-    color: black;
+    color: white;
     padding: 20px;
     text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Títulos */
+h1, h2, h3, h4, h5, h6 {
+    color: #1b5c0c;
+    margin-bottom: 10px;
+}
+
+/* Links */
 a {
     color: #1b5c0c;
     text-decoration: none;
+    transition: color 0.3s ease;
 }
-
 a:hover {
     color: #3a8e34;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    color: #1b5c0c;
-}
-
+/* Botões */
 button {
     background-color: #1b5c0c;
-    color: black;
+    color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
-
 button:hover {
     background-color: #3a8e34;
+    transform: scale(1.05);
 }
 
+/* Inputs e textarea */
 input, textarea {
     background-color: #f1f8f6;
     color: black;
     border: 1px solid #1b5c0c;
     padding: 10px;
     font-size: 14px;
+    border-radius: 6px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    max-width: 100%;
 }
-
 input:focus, textarea:focus {
     border-color: #3a8e34;
+    box-shadow: 0 0 5px rgba(58, 142, 52, 0.3);
+    outline: none;
 }
 
+/* Containers (section e div) */
 section, div {
     border: 2px solid #1b5c0c;
     padding: 20px;
     margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
 }
