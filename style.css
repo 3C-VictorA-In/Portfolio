@@ -8,7 +8,6 @@ body {
     padding: 20px;
 }
 
-/* Cabeçalho estilizado */
 header {
     background-color: #1b5c0c;
     color: white;
@@ -18,13 +17,11 @@ header {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Títulos */
 h1, h2, h3, h4, h5, h6 {
     color: #1b5c0c;
     margin-bottom: 10px;
 }
 
-/* Links */
 a {
     color: #1b5c0c;
     text-decoration: none;
@@ -34,7 +31,6 @@ a:hover {
     color: #3a8e34;
 }
 
-/* Botões */
 button {
     background-color: #1b5c0c;
     color: white;
@@ -50,7 +46,6 @@ button:hover {
     transform: scale(1.05);
 }
 
-/* Inputs e textarea */
 input, textarea {
     background-color: #f1f8f6;
     color: black;
@@ -68,7 +63,6 @@ input:focus, textarea:focus {
     outline: none;
 }
 
-/* Containers (section e div) */
 section, div {
     border: 2px solid #1b5c0c;
     padding: 20px;
